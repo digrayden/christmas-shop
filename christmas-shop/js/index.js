@@ -6,7 +6,7 @@ function toggleScrollLock(isLocked) {
   if (isLocked) {
     document.body.classList.add('no-scroll');
   } else {
-    document.body.classList.remove('no-scroll'); 
+    document.body.classList.remove('no-scroll');
   }
 }
 
@@ -28,7 +28,7 @@ const toys = [
     "name": "Bug Magnet",
     "id": "magnet",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Able to find bugs in code like they were placed there on purpose.",
     "category": "For Work",
     "superpowers": {
@@ -43,7 +43,7 @@ const toys = [
     "name": "Console.log Guru",
     "id": "console",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Uses console.log like a crystal ball to find any issue.",
     "category": "For Work",
     "superpowers": {
@@ -58,7 +58,7 @@ const toys = [
     "name": "Shortcut Cheater",
     "id": "shortcut",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Knows every keyboard shortcut like they were born with them.",
     "category": "For Work",
     "superpowers": {
@@ -73,7 +73,7 @@ const toys = [
     "name": "Merge Master",
     "id": "merge",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Merges branches in Git without conflicts, like a wizard during an exam.",
     "category": "For Work",
     "superpowers": {
@@ -88,7 +88,7 @@ const toys = [
     "name": "Async Tamer",
     "id": "async",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Handles asynchronous code and promises like well-trained pets.",
     "category": "For Work",
     "superpowers": {
@@ -103,7 +103,7 @@ const toys = [
     "name": "CSS Tamer",
     "id": "css",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Can make Flexbox and Grid work together like they were always best friends.",
     "category": "For Work",
     "superpowers": {
@@ -118,7 +118,7 @@ const toys = [
     "name": "Time Hacker",
     "id": "hacker",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Writes code at the last moment but always meets the deadline.",
     "category": "For Work",
     "superpowers": {
@@ -133,7 +133,7 @@ const toys = [
     "name": "Layout Master",
     "id": "layout",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Creates perfect layouts on the first try, like they can read the designer's mind.",
     "category": "For Work",
     "superpowers": {
@@ -148,7 +148,7 @@ const toys = [
     "name": "Documentation Whisperer",
     "id": "documentation",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Understands cryptic documentation as if they wrote it themselves.",
     "category": "For Work",
     "superpowers": {
@@ -163,7 +163,7 @@ const toys = [
     "name": "Feedback Master",
     "id": "feedback",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Accepts client revisions with the Zen calm of Buddha.",
     "category": "For Work",
     "superpowers": {
@@ -178,7 +178,7 @@ const toys = [
     "name": "Code Minimalist",
     "id": "minimalist",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Writes code so concise that one line does more than a whole file.",
     "category": "For Work",
     "superpowers": {
@@ -193,7 +193,7 @@ const toys = [
     "name": "Pixel-Perfect Magician",
     "id": "pixel",
     "class": "tag-blue",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-work.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-work.png",
     "description": "Aligns elements to the last pixel, even when the design looks abstract.",
     "category": "For Work",
     "superpowers": {
@@ -208,7 +208,7 @@ const toys = [
     "name": "Posture Levitation",
     "id": "posture",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Can sit for hours, but maintains perfect posture like a ballerina.",
     "category": "For Health",
     "superpowers": {
@@ -223,7 +223,7 @@ const toys = [
     "name": "Step Master",
     "id": "step",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Gets 10,000 steps a day even while sitting at the computer.",
     "category": "For Health",
     "superpowers": {
@@ -238,7 +238,7 @@ const toys = [
     "name": "Snack Resister",
     "id": "snack",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Ignoring desktop snacks like a strict dietician.",
     "category": "For Health",
     "superpowers": {
@@ -253,7 +253,7 @@ const toys = [
     "name": "Hydration Bot",
     "id": "hydration",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Drinks the recommended 2 liters of water a day like a health-programmed robot.",
     "category": "For Health",
     "superpowers": {
@@ -268,7 +268,7 @@ const toys = [
     "name": "Sleep Overlord",
     "id": "sleep",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Sleeps 6 hours but feels like they had 10.",
     "category": "For Health",
     "superpowers": {
@@ -283,7 +283,7 @@ const toys = [
     "name": "Break Guru",
     "id": "break",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Takes a stretch break every hour without forgetting, no matter how focused.",
     "category": "For Health",
     "superpowers": {
@@ -298,7 +298,7 @@ const toys = [
     "name": "Eye Protector",
     "id": "eye",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Can work all day at the monitor without feeling like their eyes are on fire.",
     "category": "For Health",
     "superpowers": {
@@ -313,7 +313,7 @@ const toys = [
     "name": "Stress Dodger",
     "id": "stress",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Masters meditation right at the keyboard.",
     "category": "For Health",
     "superpowers": {
@@ -328,7 +328,7 @@ const toys = [
     "name": "Yoga Coder",
     "id": "yoga",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Easily switches from coding to yoga and back.",
     "category": "For Health",
     "superpowers": {
@@ -343,7 +343,7 @@ const toys = [
     "name": "Healthy Snacker",
     "id": "healthy",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Always picks fruit, even when chocolate is within arm’s reach.",
     "category": "For Health",
     "superpowers": {
@@ -358,7 +358,7 @@ const toys = [
     "name": "Chair Exerciser",
     "id": "chair",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Manages to work out without leaving the chair.",
     "category": "For Health",
     "superpowers": {
@@ -373,7 +373,7 @@ const toys = [
     "name": "Caffeine Filter",
     "id": "caffeine",
     "class": "tag-green",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-health.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-health.png",
     "description": "Drinks coffee at night and still falls asleep with no problem.",
     "category": "For Health",
     "superpowers": {
@@ -388,7 +388,7 @@ const toys = [
     "name": "Joy Charger",
     "id": "joy",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Finds joy in the little things—even in a build that finishes unexpectedly fast.",
     "category": "For Harmony",
     "superpowers": {
@@ -403,7 +403,7 @@ const toys = [
     "name": "Error Laugher",
     "id": "error",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Laughs at code errors like they’re jokes instead of getting angry.",
     "category": "For Harmony",
     "superpowers": {
@@ -418,7 +418,7 @@ const toys = [
     "name": "Bug Acceptance Guru",
     "id": "bug",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Accepts bugs as part of the journey to perfection — it’s just another task.",
     "category": "For Harmony",
     "superpowers": {
@@ -433,7 +433,7 @@ const toys = [
     "name": "Spontaneous Coding Philosopher",
     "id": "spontaneous",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Philosophically accepts any client suggestion after a long refactor.",
     "category": "For Harmony",
     "superpowers": {
@@ -448,7 +448,7 @@ const toys = [
     "name": "Deadline Sage",
     "id": "deadline",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Remains zen even when the deadline is close and the project manager is stressed.",
     "category": "For Harmony",
     "superpowers": {
@@ -463,7 +463,7 @@ const toys = [
     "name": "Inspiration Maestro",
     "id": "inspiration",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Finds inspiration on an empty screen as if masterpieces are already there.",
     "category": "For Harmony",
     "superpowers": {
@@ -478,7 +478,7 @@ const toys = [
     "name": "Peace Keeper",
     "id": "pease",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Maintains inner calm even in moments of intense crisis.",
     "category": "For Harmony",
     "superpowers": {
@@ -493,7 +493,7 @@ const toys = [
     "name": "Empathy Guru",
     "id": "empathy",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Feels the team’s mood and can lift everyone’s spirits.",
     "category": "For Harmony",
     "superpowers": {
@@ -508,7 +508,7 @@ const toys = [
     "name": "Laughter Generator",
     "id": "laughter",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Can lighten any tense situation with a joke that even bugs laugh at.",
     "category": "For Harmony",
     "superpowers": {
@@ -523,7 +523,7 @@ const toys = [
     "name": "Pause Master",
     "id": "pause",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Knows when to just step back from the keyboard and breathe.",
     "category": "For Harmony",
     "superpowers": {
@@ -538,7 +538,7 @@ const toys = [
     "name": "Coder Healer",
     "id": "coder",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Can support a colleague in their darkest hour, even if it’s a 500 error.",
     "category": "For Harmony",
     "superpowers": {
@@ -553,7 +553,7 @@ const toys = [
     "name": "Music Code Curator",
     "id": "music",
     "class": "tag-pink",
-    "img": "/digrayden-JSFE2024Q4/christmas-shop/image/gift-for-harmony.png",
+    "img": "/christmas-shop/christmas-shop/image/gift-for-harmony.png",
     "description": "Creates work playlists so good, even deadlines follow the rhythm.",
     "category": "For Harmony",
     "superpowers": {
@@ -593,7 +593,7 @@ function renderCards() {
 
 //Modal
 function scrollLock(isLocked) {
-  const isDesktop = window.matchMedia("(min-width: 768px)").matches; 
+  const isDesktop = window.matchMedia("(min-width: 768px)").matches;
 
   if (isLocked) {
     if (isDesktop) {
@@ -662,7 +662,7 @@ function superpowerSection(name, value) {
   const cleanPlus = value.startsWith('+') ? value.slice(1) : value;
   const digit = parseInt(cleanPlus[0]);
   const img = Array.from({ length: 5 }, (_, index) =>
-    `<img src="/digrayden-JSFE2024Q4/christmas-shop/image/icons/snowflake.svg" alt="Christmas shop" style="opacity: ${index < digit ? '1' : '0.1'};">`
+    `<img src="/christmas-shop/christmas-shop/image/icons/snowflake.svg" alt="Christmas shop" style="opacity: ${index < digit ? '1' : '0.1'};">`
   ).join('');
 
   return `

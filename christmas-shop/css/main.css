@@ -204,11 +204,11 @@ ul {
 
 @font-face {
   font-family: "Montserrat";
-  src: url(/digrayden-JSFE2024Q4/christmas-shop/fonts/Montserrat-Regular.ttf);
+  src: url(/christmas-shop/christmas-shop/fonts/Montserrat-Regular.ttf);
 }
 @font-face {
   font-family: "Allura";
-  src: url(/digrayden-JSFE2024Q4/christmas-shop/fonts/Allura-Regular.ttf);
+  src: url(/christmas-shop/christmas-shop/fonts/Allura-Regular.ttf);
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -935,7 +935,7 @@ p {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png), url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-ball.png);
+  background-image: url(/christmas-shop/christmas-shop/image/bg-snow.png), url(/christmas-shop/christmas-shop/image/bg-ball.png);
   background-size: cover;
   background-position: left;
 }
@@ -956,7 +956,7 @@ p {
 }
 
 .about {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png);
+  background-image: url(/christmas-shop/christmas-shop/image/bg-snow.png);
   background-size: cover;
   background-position: bottom;
   display: flex;
@@ -1019,7 +1019,7 @@ p {
   border-radius: 20px;
   width: 50%;
   height: 528px;
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/santa.png);
+  background-image: url(/christmas-shop/christmas-shop/image/santa.png);
   background-position: center;
 }
 @media (max-width: 620px) {
@@ -1029,7 +1029,7 @@ p {
 }
 
 .slider {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png);
+  background-image: url(/christmas-shop/christmas-shop/image/bg-snow.png);
   background-size: cover;
   padding: 60px 8px;
   background-position: left;
@@ -1093,22 +1093,22 @@ p {
 }
 
 .slide__img-live {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/snowman.png);
+  background-image: url(/christmas-shop/christmas-shop/image/snowman.png);
   background-size: cover;
 }
 
 .slide__img-create {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/christmas-trees.png);
+  background-image: url(/christmas-shop/christmas-shop/image/christmas-trees.png);
   background-size: cover;
 }
 
 .slide__img-love {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/christmas-tree-ball.png);
+  background-image: url(/christmas-shop/christmas-shop/image/christmas-tree-ball.png);
   background-size: cover;
 }
 
 .slide__img-dream {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/fairytale-house.png);
+  background-image: url(/christmas-shop/christmas-shop/image/fairytale-house.png);
   background-size: cover;
 }
 
@@ -1120,7 +1120,7 @@ p {
 }
 
 .gifts {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png);
+  background-image: url(/christmas-shop/christmas-shop/image/bg-snow.png);
   background-size: cover;
   padding: 60px 8px;
   display: flex;
@@ -1153,7 +1153,7 @@ p {
 }
 
 .cta {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-forest.png), url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png);
+  background-image: url(/christmas-shop/christmas-shop/image/bg-forest.png), url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png);
   background-size: cover;
   padding: 60px 8px;
   display: flex;
@@ -1233,7 +1233,7 @@ p {
 }
 
 .gift-page {
-  background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-garland.png);
+  background-image: url(/christmas-shop/christmas-shop/image/bg-garland.png);
   background-size: contain;
   background-repeat: no-repeat;
   padding: 60px 8px;
