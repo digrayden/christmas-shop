@@ -1,0 +1,78 @@
+.cta {
+    background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-forest.png),url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png);
+    background-size: cover;
+    padding: 60px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-position: bottom;
+}
+
+.cta__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 20px;
+    padding: 60px 0px;
+    height: 548px;
+    max-width: 1276px;
+    @include media-mobile {
+        height: 585px;
+    }
+}
+
+.cta__container{
+    gap: 18px;
+}
+
+.cta__title{
+    text-align: center;
+    color: $color-static-white;
+}
+
+.cta__caption {
+    text-align: center;
+    color: $color-static-white;
+}
+
+.cta__timer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    border-radius: 20px;
+    padding: 8px 12px 12px 12px;
+    background-color: $color-static-white40;
+    color: $color-static-white;
+}
+
+.timer__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+    width: 80px;
+    position: relative;
+
+    &:not(:first-of-type)::before {
+        content: '';
+        position: absolute;
+        right: 90%;
+        width: 20px;
+        border-top: 1px solid $color-static-white40;
+        transform: rotate(90deg);
+    }
+}

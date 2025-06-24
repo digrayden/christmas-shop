@@ -1,0 +1,9 @@
+.collumn-four {
+    @include columns($width: 21%);
+}
+
+.column-three {
+    @include columns($width: 32%);
+
+}
+

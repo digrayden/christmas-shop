@@ -1,0 +1,25 @@
+.header {
+    color: $color-static-white;
+    @include media-tablet {
+        position: relative;
+        
+    }
+}
+
+.header__wrapper {
+    padding: 12px 0px; 
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header__logo{
+    display: flex;
+    margin-left: 8px;
+}
+
+.header__hamburger {
+    @include media-mobile {
+        position: absolute;
+    }
+}

@@ -1,0 +1,24 @@
+.hero {
+    padding: 60px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png), url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-ball.png);
+    background-size: cover;
+    background-position: left;
+    @include media-laptop {
+        background-position: center;
+    }
+}
+
+.hero__caption {
+    text-align: center;
+    color: $color-static-white;
+}
+
+.hero__title {
+    text-align: center;
+    color: $color-static-white;
+}
+

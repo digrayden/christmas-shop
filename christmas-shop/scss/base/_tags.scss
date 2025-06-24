@@ -1,0 +1,33 @@
+.tag-blue {
+    color: $color-tag-purple;
+}
+
+.tag-green {
+    color: $color-tag-green;
+}
+
+.tag-pink {
+    color: $color-tag-pink;
+}
+
+.tag {
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    @extend %transition;
+
+    &_selected {
+        background-color: $color-static-white20;
+        cursor: default;
+    }
+
+    @media #{$desktop} {
+        @include hover-effect {
+            background-color: $color-static-white20;
+        }
+    }
+
+    @include media-mobile-max {
+        padding: 12px 8px;
+    }
+}

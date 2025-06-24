@@ -1,0 +1,44 @@
+.card {
+    width: 310px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    background-color: $color-content-background;
+    border-radius: 20px;
+    @extend %transition;
+
+    @media #{$desktop} {
+        @include hover-effect {
+            color: $color-primary;
+        }
+    }
+    &__img {
+        width: 310px;
+        height: 230px;
+    }
+    &__content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        border-radius: 20px;
+        padding: 20px;
+        width: 310px;
+        height: 112px;
+        background-color: $color-static-white;
+    }
+
+    &__didicription {
+
+    }
+    &__power {
+
+    }
+    &__modal-list {
+        list-style: none;
+    }
+}

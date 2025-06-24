@@ -1,0 +1,63 @@
+.about {
+    background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    padding: 60px 8px;
+}
+
+.about__wrapper {
+    background-color: $color-static-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0px;
+    width: 1276px;
+    border-radius: 20px;
+    @include media-mobile-max {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.about__content {
+    padding: 0px 60px;
+    width: 50%;
+    @include media-tablet {
+            max-width: 376px;
+        }
+    @include media-mobile-max {
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+.about__content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about__caption {
+    color: $color-primary;
+}
+
+.about__text {
+    overflow-wrap: break-word;
+}
+.about__img-container {
+    border-radius: 20px;
+    width: 50%;
+    height: 528px;
+    background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/santa.png);
+    background-position: center;
+    @include media-mobile-max {
+        width: 100%;
+    }
+}

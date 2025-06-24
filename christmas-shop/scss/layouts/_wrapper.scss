@@ -1,0 +1,19 @@
+.wrapper {
+    max-width: $content-width;
+    margin: auto;
+    @include media-laptop {
+        padding: 0px 0px;
+    }
+    @include media-mobile {
+        padding: 0 0px;
+    }
+}
+.wrapper-small {
+    padding: 60px 0px;
+    max-width: 426px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}

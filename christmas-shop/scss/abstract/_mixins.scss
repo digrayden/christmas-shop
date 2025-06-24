@@ -1,0 +1,53 @@
+@mixin font ($size, $weight, $height, $spacing, $transform) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: $spacing;
+    text-transform: $transform;
+}
+
+@mixin columns ($width) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    >* {
+        flex-basis: $width;
+    }
+}
+
+@mixin media-laptop {
+    @media (max-width: $content-width) {
+        @content;
+    }
+}
+@mixin media-laptop-min {
+    @media (max-width: $content-width) {
+        @content;
+    }
+}
+
+@mixin media-tablet {
+    @media (max-width: $tablet-width) {
+        @content;
+    }
+}
+
+@mixin media-mobile {
+    @media (max-width: $mobile-width) {
+        @content;
+    }
+}
+
+@mixin media-mobile-max {
+    @media (max-width: $mobile-width-max) {
+        @content;
+    }
+}
+
+@mixin hover-effect {
+    &:hover {@content}
+    @media (hover: hover) {
+        &:hover {@content}
+    }
+}

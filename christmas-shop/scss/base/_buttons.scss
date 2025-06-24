@@ -1,0 +1,98 @@
+.button {
+    border-radius: 20px;
+    padding: 20px 32px;
+    width: 235px;
+    height: 56px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: $color-dark;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: $color-static-white;
+    @extend %transition;
+    @media #{$desktop} {
+    @include hover-effect {
+            color: $color-dark;
+            background-color: $color-static-white;    
+            a {
+                color: $color-dark;
+            }
+        }
+    }
+    
+    a {
+        text-decoration: none;
+        color: $color-static-white;
+    }
+}
+
+.button-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px;
+    border: 1px solid $color-static-white;
+    border-radius: 20px;
+    width: 56px;
+    height: 56px;
+    background-color: transparent;
+    cursor: pointer;
+    @extend %transition;
+
+    @media #{$desktop} {
+            @include hover-effect {
+                background-color: $color-static-white;
+                
+                    svg path {
+                        stroke: $color-primary;
+                    }
+            }
+        }
+
+
+    &_unactive {
+        cursor: default;
+        border-color: $color-static-white40;
+
+        svg path {
+            stroke: $color-static-white40;
+        }
+
+        &:hover {
+            border-color: $color-static-white40;
+            background-color: transparent;
+
+            svg path {
+                stroke: $color-static-white40;
+            }
+        }
+    }
+&_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    border-radius: 100px;
+    border: 1px solid $color-primary;
+    background-color: $color-static-white;
+
+    &.show {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+}
+}
+

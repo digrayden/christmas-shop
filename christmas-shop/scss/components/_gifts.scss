@@ -1,0 +1,32 @@
+.gifts {
+    background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-snow.png);
+    background-size: cover;
+    padding: 60px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-position: left;
+}
+
+.gifts__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gifts__container {
+    color: $color-static-white;
+    padding: 0px;
+}
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 12px;
+}

@@ -1,0 +1,30 @@
+.gift-page {
+    background-image: url(/digrayden-JSFE2024Q4/christmas-shop/image/bg-garland.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 60px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-position: top;
+}
+
+.gifts-page__title {
+    color: $color-static-white;
+    text-align: center;
+    max-width: 426px;
+    overflow-wrap: break-word;
+}
+
+.gifts-page__tags {
+    max-width: 474px;
+    color: $color-static-white;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    gap: 8px;
+    @include media-mobile-max {
+        gap: 0px;
+    }
+}

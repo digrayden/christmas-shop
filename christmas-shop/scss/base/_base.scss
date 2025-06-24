@@ -1,0 +1,50 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    @extend %font-primary;
+    position: static;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: $color-dark;
+    overflow-x: hidden;
+    z-index: 100;
+}
+
+h1 {
+    @include font($size: 1.6rem, $weight: 600, $height:150%, $spacing: 0.17em, $transform: uppercase);
+}
+
+h2 {
+    @include font($size:1.2rem, $weight:600, $height:152%, $spacing:0.16em, $transform: uppercase);
+}
+
+h3 {
+    @include font($size: 0.8rem, $weight: 600, $height: 152%, $spacing: 0.08em, $transform: uppercase);
+}
+
+h4 {
+    @include font($size: 0.6rem, $weight: 600, $height: 130%, $spacing: 0.05em, $transform: uppercase);
+}
+
+p {
+    @include font($size: 0.8rem, $weight: 400, $height: 148%, $spacing: normal, $transform: none);
+}
+
+.actionlarge {
+    @include font($size: 1.2rem, $weight: 600, $height: 152%, $spacing: 0.16em, $transform: uppercase);
+}
+
+.actionsmall {
+    @include font($size: 0.6rem, $weight: 600, $height: 130%, $spacing: 0.04em, $transform: uppercase);
+}
+
+.caption {
+    @extend %font-second;
+    @include font($size: 1.2rem, $weight: 400, $height: 100%, $spacing: 0.05em, $transform: none);
+}
+
+.slider-text {
+    @include font($size: 4rem, $weight: 600, $height: auto, $spacing: normal, $transform: uppercase);
+}

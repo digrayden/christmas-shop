@@ -1,0 +1,18 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    padding: 8px 20px;
+    z-index: 3;
+}
+
+.logo-object{
+    width: 24px;
+    height: 24px;
+}
+
+.logo-title {
+    color: $color-dark;    
+}

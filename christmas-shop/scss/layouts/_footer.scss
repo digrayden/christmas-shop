@@ -1,0 +1,110 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    padding: 60px 8px;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 60px;
+    @include media-laptop-min {
+        gap: 58px;
+    }
+}
+
+
+.footer__container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;    
+    a {
+        text-decoration: none;
+        color: $color-dark;
+    }
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    @include media-tablet {
+        flex-basis: 100%;
+        pointer-events: none;
+    }
+}
+
+.footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 417px;
+    gap: 12px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: $color-content-background;
+    @extend %transition;
+    @media #{$desktop} {
+        @include hover-effect {
+            color: $color-primary;
+        }
+    }
+    @include media-laptop-min {
+        flex-basis: 100%;
+        min-width: 100%;
+        pointer-events: none;
+    }            
+}
+
+.socials {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.socials__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    @extend %transition;
+    @media #{$desktop} {
+        @include hover-effect {
+            svg path {
+                    stroke: $color-primary;
+                }
+        }
+    } 
+}
+
+.socials__container-img {    
+    width: 24px;
+    height: 24px;
+}
+
+.footer__caption {
+    cursor: pointer;
+    text-decoration: none;
+    color: $color-dark;
+    @extend %transition;
+    @media #{$desktop} {
+        @include hover-effect {
+            color: $color-primary;
+        }
+    }
+}

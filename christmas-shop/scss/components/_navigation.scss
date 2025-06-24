@@ -1,0 +1,86 @@
+.navigation {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    justify-content: flex-end;
+    @extend %transition;
+    @include media-tablet {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+
+            padding: 12px 20px;
+            
+        }
+}
+
+.navigation__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: $color-dark;
+    @include font($size: 0.6rem, $weight: 600, $height: 130%, $spacing: 0.04em, $transform: uppercase);
+    @extend %transition;
+    @media #{$desktop} {
+        @include hover-effect {
+            a {
+                color: $color-primary;
+            }            
+            background-color: $color-primary10;                                
+            cursor: none;
+        }
+        
+    }
+
+
+    a {
+        text-decoration: none;
+    color: $color-dark;
+    }
+
+    &_selected {
+        background-color: $color-primary10;
+        cursor: default;
+        color: $color-primary;
+        a{
+            color: $color-primary;
+            cursor: default;
+        }
+    }
+        @include media-tablet {
+            a {
+            @include font($size: 1.2rem, $weight: 600, $height: 152%, $spacing: 0.16em, $transform: uppercase);
+            }
+        }
+}
+
+.header__nav {    
+    @include media-tablet {        
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: $color-static-white;      
+        justify-content: center;       
+        transition: all 1s ease;
+        display: flex;
+        overflow-x: hidden;
+        width: 0px;
+        height: 100vh;
+    };
+
+    &.active {                
+        overflow: auto;
+        width: 100vw;
+        transition: all 1s ease;        
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
